@@ -25,6 +25,9 @@ if height>120:
     elif age<=18:
         bill=7
         print("charge for ticket is 2")
+    elif age>=45 and age<=55:
+        bill=0
+        print("charge for ticket is 0")
     photo=input("do you require a photo y or n")
     if photo=="y":
         bill+=5
